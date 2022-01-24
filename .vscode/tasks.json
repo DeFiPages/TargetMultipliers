@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "cross-env NODE_ENV=production parcel build src/index.html --public-url ."
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "parcel serve src/index.html"
+		},
+		{
+			"type": "npm",
+			"script": "deploy",
+			"problemMatcher": [],
+			"label": "npm: deploy",
+			"detail": "gh-pages -d dist"
+		}
+	]
+}
