@@ -1,6 +1,6 @@
 ## Distribution of the Target Multipliers
 
-This page calculates the distribution of Target Multipliers of all enabled Defichain Masternodes.
+This [page](https://defipages.github.io/TargetMultipliers) calculates the distribution of Target Multipliers of all enabled Defichain Masternodes.
 
 The api call https://api.mydeficha.in/v1/listmasternodes/?state=ENABLED returns the data of all enabled masternodes, which are also shown in https://mydeficha.in/masternodes.php.
 
